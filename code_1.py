@@ -1,6 +1,9 @@
 def square(n):
     return n**2
 
+def square2(n):
+    ans = n*n
+    return ans
 
 def fibonacci(n):
     lst = [0,1]
@@ -10,6 +13,9 @@ def fibonacci(n):
     return lst
 
 result = square(4)
+print(result)
+
+result = square2(5)
 print(result)
 
 fib_list = fibonacci(10)
