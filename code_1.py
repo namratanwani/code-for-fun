@@ -103,6 +103,26 @@ def gcd(a, b):
 
 
 
+class User:
+    """
+        A class named User.
+    """
+    def __init__(self, name, age):
+        """
+        self.name = name creates an attribute called name and assigns the value of the name parameter to it.
+        self.age = age creates an attribute called age and assigns the value of the age parameter to it.
+        """
+        self.name = name
+        self.age = age
+
+    # Instance method
+    def description(self):
+        return f"{self.name} is {self.age} years old"
+
+    # Another instance method
+    def speak(self, sound):
+        return f"{self.name} says {sound}"
+
 
 a = 98
 b = 56
