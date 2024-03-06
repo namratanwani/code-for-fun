@@ -102,6 +102,8 @@ def gcd(a, b):
 	return gcd(a, b-a)
 
 
+
+
 a = 98
 b = 56
 if(gcd(a, b)):
